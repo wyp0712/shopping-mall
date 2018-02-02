@@ -14,6 +14,14 @@ export default new Router({
     {
       path: '/home',
       component: resolve => require(['@/views/home'], resolve)
+    },
+    {
+      path: '/shopcart',
+      component: resolve => require(['@/views/shoppingcart'], resolve)
+    },
+    {
+      path: '/mime',
+      component: resolve => require(['@/views/mime'], resolve)
     }
   ]
 })
